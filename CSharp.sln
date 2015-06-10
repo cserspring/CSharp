@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLReaderWriter", "XMLReaderWriter\XMLReaderWriter.csproj", "{AC3CA288-FD0D-47DC-B4D0-158B52BB509C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSchemaTest", "XMLSchemaTest\XMLSchemaTest.csproj", "{F8003709-C8C2-4E07-A298-510F4EE0A568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourceExample", "EventSourceExample\EventSourceExample.csproj", "{50D43EA2-5BBA-4247-8E1F-FFBE36B93EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageExecutor", "StorageExecutor\StorageExecutor.csproj", "{F731CDFA-7747-40F8-BCD6-FDFCCBD203E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeExample", "AttributeExample\AttributeExample.csproj", "{72519400-CCB8-4494-968B-10C7751CAA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadonlyDictionaryTest", "ReadonlyDictionaryTest\ReadonlyDictionaryTest.csproj", "{29E23CA0-B41B-45CE-8DCD-4BCC2CAD4475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenBasedAuthentication", "\\imtfs\scratch\shuwa\CSharp\TokenBasedAuthentication\TokenBasedAuthentication.csproj", "{0B31B387-7A0C-4339-A188-7516F4C5654D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsApp", "ProductsApp\ProductsApp.csproj", "{1D445FCA-6850-4A9A-86E7-527728D51CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolveXMLInvalidChars", "ResolveXMLInvalidChars\ResolveXMLInvalidChars.csproj", "{8E68804D-94FD-4244-B9BB-3BC79A7C1C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinSelfhostSample\OwinSelfhostSample.csproj", "{D6854231-45BD-4446-9698-2E959C5E6A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9F33D4CB-ACAC-40A6-B7CA-D538D4C0654B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3CA288-FD0D-47DC-B4D0-158B52BB509C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3CA288-FD0D-47DC-B4D0-158B52BB509C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3CA288-FD0D-47DC-B4D0-158B52BB509C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3CA288-FD0D-47DC-B4D0-158B52BB509C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8003709-C8C2-4E07-A298-510F4EE0A568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8003709-C8C2-4E07-A298-510F4EE0A568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8003709-C8C2-4E07-A298-510F4EE0A568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8003709-C8C2-4E07-A298-510F4EE0A568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D43EA2-5BBA-4247-8E1F-FFBE36B93EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D43EA2-5BBA-4247-8E1F-FFBE36B93EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D43EA2-5BBA-4247-8E1F-FFBE36B93EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D43EA2-5BBA-4247-8E1F-FFBE36B93EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F731CDFA-7747-40F8-BCD6-FDFCCBD203E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F731CDFA-7747-40F8-BCD6-FDFCCBD203E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F731CDFA-7747-40F8-BCD6-FDFCCBD203E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F731CDFA-7747-40F8-BCD6-FDFCCBD203E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72519400-CCB8-4494-968B-10C7751CAA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72519400-CCB8-4494-968B-10C7751CAA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72519400-CCB8-4494-968B-10C7751CAA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72519400-CCB8-4494-968B-10C7751CAA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E23CA0-B41B-45CE-8DCD-4BCC2CAD4475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E23CA0-B41B-45CE-8DCD-4BCC2CAD4475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E23CA0-B41B-45CE-8DCD-4BCC2CAD4475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E23CA0-B41B-45CE-8DCD-4BCC2CAD4475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B31B387-7A0C-4339-A188-7516F4C5654D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B31B387-7A0C-4339-A188-7516F4C5654D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B31B387-7A0C-4339-A188-7516F4C5654D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B31B387-7A0C-4339-A188-7516F4C5654D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D445FCA-6850-4A9A-86E7-527728D51CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D445FCA-6850-4A9A-86E7-527728D51CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D445FCA-6850-4A9A-86E7-527728D51CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D445FCA-6850-4A9A-86E7-527728D51CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E68804D-94FD-4244-B9BB-3BC79A7C1C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E68804D-94FD-4244-B9BB-3BC79A7C1C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E68804D-94FD-4244-B9BB-3BC79A7C1C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E68804D-94FD-4244-B9BB-3BC79A7C1C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6854231-45BD-4446-9698-2E959C5E6A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6854231-45BD-4446-9698-2E959C5E6A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6854231-45BD-4446-9698-2E959C5E6A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6854231-45BD-4446-9698-2E959C5E6A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
