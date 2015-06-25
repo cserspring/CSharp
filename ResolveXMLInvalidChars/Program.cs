@@ -12,11 +12,13 @@ namespace ResolveXMLInvalidChars
         {
             Stopwatch stopwatch2 = new Stopwatch();
             stopwatch2.Start();
-            Stream stream =
-                File.OpenRead(
-                    "C:\\Users\\shuwa\\Desktop\\20150603T082708Z-20150603T082808Z-ASHWINWIN8-df08f87e373a4432bf8d0eab0e6456fb.log");
+            //Stream stream =
+                //File.OpenRead(
+                    //"C:\\Users\\shuwa\\Documents\\GitHub\\CSharp\\ResolveXMLInvalidChars\\test.blob");
             //StreamReader sr = new StreamReader(stream, );
-            var xmlReader = XmlReader.Create(stream);
+            Stream stream = File.OpenRead("C:\\Users\\shuwa\\Documents\\GitHub\\CSharp\\ResolveXMLInvalidChars\\test.blob");
+            XmlSanitizingStreamReader sr = new XmlSanitizingStreamReader(stream);
+            var xmlReader = XmlReader.Create(sr);
             string message = "";
             while (xmlReader.Read())
             {
@@ -45,7 +47,7 @@ namespace ResolveXMLInvalidChars
                         break;
                 }
             }
-            stream.Close();
+            //stream.Close();
             stopwatch2.Stop();
             string time = stopwatch2.ElapsedMilliseconds.ToString();
 

@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Versioning.cs
+﻿namespace Versioning.cs
 {
+    using System;
+
     // versioning.cs
     // CS0114 expected
     public class MyBase
