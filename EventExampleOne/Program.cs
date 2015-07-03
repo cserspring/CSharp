@@ -1,6 +1,6 @@
-﻿using System;
-namespace MyCollections
+﻿namespace MyCollections
 {
+    using System;
     using System.Collections;
 
     // A class that works just like ArrayList, but sends event
