@@ -1,4 +1,5 @@
-﻿namespace MyCollections
+﻿
+namespace MyCollections
 {
     using System;
     using System.Collections;
@@ -46,6 +47,7 @@
 
 namespace TestEvents
 {
+    using System;
     using MyCollections;
 
     class EventListener
